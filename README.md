@@ -27,7 +27,7 @@ Repo ini hanya menampung rilis terbaru (installer + `update.json` yang dibaca fi
 | Tab | Fungsi |
 |---|---|
 | **Dashboard** | Window yang dipantau, Kunci layout, Fokus window dulu, Interval OCR, Alarm berikutnya, peta slot per monitor. Status engine dan tombol Start / Stop ada di header semua tab. |
-| **Layout** | Susun slot di tiap monitor (Preset atau tarik sendiri), pasangkan slot ke app. Engine menarik window ke slot dan menjaganya. |
+| **Layout** | Susun slot di tiap monitor: Preset siap pakai untuk 1 sampai 18 window dalam satu layar, atau tarik sendiri. Pasangkan slot ke app. Engine menarik window ke slot dan menjaganya. |
 | **Apps** | Daftar game/app yang dikelola; tambah dari proses yang berjalan. |
 | **Rules** | Autoskip: deteksi lewat teks (OCR, pola regex), lewat **gambar ikon** yang diambil dari preview, atau keduanya. Area deteksi dengan preview live, rule bisa diarahkan ke slot atau window tertentu, aksi Klik latar / Mouse 2x / Tombol. Bawaan: SKIP dan Tap to close. |
 | **Boss** | Scheduler field boss (jam + grup, PID karakter, Test). Bawaan mati; mode bot, risiko ToS lebih tinggi. |
