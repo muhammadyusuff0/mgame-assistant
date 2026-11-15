@@ -29,7 +29,7 @@ Repo ini hanya menampung rilis terbaru (installer + `update.json` yang dibaca fi
 | **Dashboard** | Window yang dipantau, Kunci layout, Fokus window dulu, Interval OCR, Alarm berikutnya, peta slot per monitor. Status engine dan tombol Start / Stop ada di header semua tab. |
 | **Layout** | Susun slot di tiap monitor: Preset siap pakai untuk 1 sampai 18 window dalam satu layar, atau tarik sendiri. Pasangkan slot ke app. Engine menarik window ke slot dan menjaganya. |
 | **Apps** | Daftar game/app yang dikelola; tambah dari proses yang berjalan. |
-| **Rules** | Autoskip: deteksi lewat teks (OCR, pola regex), lewat **gambar ikon** yang diambil dari preview, atau keduanya. Area deteksi dengan preview live, rule bisa diarahkan ke slot atau window tertentu, aksi Klik latar / Mouse 2x / Tombol. Bawaan: SKIP dan Tap to close. |
+| **Rules** | Autoskip: deteksi lewat teks (OCR, pola regex), lewat **gambar ikon** yang diambil dari preview, atau keduanya. Rule juga bisa beraksi menurut **isi sebuah bar** (misalnya saat HP tinggal 50%). Area deteksi dengan preview live, rule bisa diarahkan ke slot atau window tertentu, aksi Klik latar / Mouse 2x / Tombol. Bawaan: SKIP dan Tap to close. |
 | **Boss** | Scheduler field boss (jam + grup, PID karakter, Test). Bawaan mati; mode bot, risiko ToS lebih tinggi. |
 | **Alarm** | Pengingat World/Field/Base/Dungeon Boss dan Duel: bunyi, toast, banner; lead time, ulang, suara, jam tenang, kalibrasi countdown/jam spawn. Tetap berbunyi selama engine jalan walau app ditutup. Bisa dikirim ke Discord/Telegram. |
 | **Kalkulator** | Empat kalkulator: Prime Mod, Farming Node (untung per jam per tier, memakai harga hasil pindai Market), Level Sacred Weapon, dan Konversi Material. |
@@ -78,7 +78,7 @@ Hanya rilis terbaru yang disediakan di sini.
 ## Penafian
 - MGame Assistant adalah alat buatan pemain. Tidak berafiliasi dengan, tidak didukung, dan tidak disetujui oleh
   Netmarble maupun pengembang RF Online Next. Nama game dan merek dagang adalah milik pemiliknya masing-masing.
-- Fitur otomasi (klik otomatis, scheduler boss, gulir dan pindah tab Market) bisa melanggar Ketentuan Layanan
+- Fitur otomasi (klik otomatis, rule menurut isi bar HP, scheduler boss, gulir dan pindah tab Market) bisa melanggar Ketentuan Layanan
   game dan berisiko sanksi pada akun. Baca ketentuan game, dan pakai dengan risiko sendiri.
 - App disediakan apa adanya, tanpa jaminan. Pembuat tidak bertanggung jawab atas kerugian apa pun akibat
   pemakaiannya.
